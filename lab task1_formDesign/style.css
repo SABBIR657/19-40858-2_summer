@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.required:after{
+    content: "*";
+    color: red;
+}
+
+body{
+    background-color: antiquewhite;
+    
+    
+}
+.myForms{
+    border: 1px solid black;
+    width: 70%;
+    padding-left:200px ;
+   
+}
+
+.upperselector a{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 50px;
+    color: black;
+    font-size: 22px;
+}
+
+.upperselector a:hover{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form1{
+    padding: 20px;
+
+}
+.form1 label{
+    padding: 3px 5px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+.form1 .pinformation input[type=text]
+{
+    width: 40%;
+    
+}
+
+.form1 .pinformation label{
+    width: 200px;
+    display: inline-block;
+}
+
+.form2 .trash2 input[type=text]
+{
+    width: 20%;
+    
+}
+
+.form2 .trash2 label{
+    width: 200px;
+    display: inline-block;
+}
+
+
+
